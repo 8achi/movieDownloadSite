@@ -1,0 +1,37 @@
+<%- include("partials/moviesHeader"); -%>
+
+
+
+<!-- ..............................content........................................... -->
+
+
+
+
+
+
+<div class="content-main-box">
+
+    <% for (var i = (movies.length) - 1; i >= 0 ; i--) { %>
+    <article class="latestPost excerpt">
+      <a href="/info/<%=movies[i]._id %>" title="<%= movies[i].title %>" class="post-image post-image-left">
+        <div class="featured-thumbnail"><img width="200" height="300" src="<%= movies[i].posterImage %>" class="attachment-sociallyviral-featured size-sociallyviral-featured wp-post-image" loading="lazy" title="<%= movies[i].title %>" ></div>
+      </a>
+      <header>
+        <h2 class="title front-view-title"><a href="/info/<%=movies[i]._id %>" title="<%= movies[i].title %>"><%= movies[i].title %></a></h2>
+      </header>
+    </article>
+    <% } %>
+
+
+
+
+</div>
+
+
+
+
+
+  <!-- ............................footer ................................ -->
+
+
+  <%- include("partials/footer"); -%>

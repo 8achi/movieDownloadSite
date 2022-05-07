@@ -1,0 +1,82 @@
+<%- include("partials/uploadHeader"); -%>
+
+
+  <form class="" action="/upload" method="post">
+
+
+    <div class="upload-container">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Link Section</h1><br>
+            <p>DwnldLink 420p:</p>
+            <textarea name="downloadLink420p" rows="2" cols="40"></textarea>
+            <hr>
+            <p>DwnldLink 720p:</p>
+            <textarea name="downloadLink720p" rows="2" cols="40"></textarea>
+            <hr>
+            <p>DwnldLink 1080p:</p>
+            <textarea name="downloadLink1080p" rows="2" cols="40"></textarea>
+            <hr>
+            <p>PosterImgLink:</p>
+            <textarea name="posterImageLink" rows="2" cols="40"></textarea>
+            <hr>
+            <p>screenshot[1]:</p>
+            <textarea name="ss1" rows="2" cols="40"></textarea>
+            <hr>
+            <p>screenshot[2]:</p>
+            <textarea name="ss2" rows="2" cols="40"></textarea>
+            <hr>
+            <p>screenshot[3]:</p>
+            <textarea name="ss3" rows="2" cols="40"></textarea>
+            <hr>
+          </div>
+
+          <div class="col">
+            <h1>Title Section</h1><br>
+            <p>MovieName:</p>
+            <textarea name="movieName" rows="2" cols="40"></textarea>
+            <hr>
+            <p>MovieTitle:</p>
+            <textarea name="movieTitle" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Languages:</p>
+            <textarea name="languages" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Size available:</p>
+            <textarea name="size" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Movie Format:</p>
+            <textarea name="format" rows="2" cols="40"></textarea>
+            <hr>
+          </div>
+
+          <div class="col">
+            <h1>info Section</h1><br>
+            <p>IMDb Rating:</p>
+            <textarea name="imdb" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Story Line:</p>
+            <textarea name="story" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Director:</p>
+            <textarea name="director" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Writer Name:</p>
+            <textarea name="writer" rows="2" cols="40"></textarea>
+            <hr>
+            <p>Stars Cast:</p>
+            <textarea name="stars" rows="2" cols="40"></textarea>
+            <hr>
+          </div>
+
+
+        </div>
+      </div>
+
+      <button class="btn btn-warning"type="submit" name="button">Upload</button>
+
+    </div>
+
+  </form>
+  <%- include("partials/footer"); -%>

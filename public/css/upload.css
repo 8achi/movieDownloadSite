@@ -1,0 +1,85 @@
+body{
+  background-color: #062C30;
+}
+
+hr{
+  color: #fff;
+}
+h1{
+  color: #fff;
+}
+
+/* ----------- Title ---------------- */
+#title {
+  background-color: #05595B;
+  padding-bottom: 5px;
+}
+
+
+/* ---------------navbar---------------- */
+.top-nav{
+  margin-right: 30px;
+}
+
+.navbar-brand{
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size:40px;
+  padding-left: 20px;
+}
+
+.brand-c{
+  font-family: 'Rubik Wet Paint', cursive;
+color: #F7FD04;
+}
+.navbar-options{
+  padding-right: 100px;
+}
+.font-icon{
+  color: #EC255A;
+}
+
+/* -----------------search - class---------- */
+
+
+.search{
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+.search-btn{
+  margin-top: 10px;
+}
+/* ........................uplod form............................ */
+
+.upload-container{
+  text-align: center;
+
+}
+
+p{
+  display: inline-block;
+color: #fff;
+}
+.btn{
+width:600px;
+margin-bottom:40px;
+}
+
+
+
+ /* ........................Footer............................ */
+
+ #footer{
+   background-color: #05595B;
+   padding-top:50px;
+   padding-bottom:50px;
+   text-align: center;
+ }
+ .s-link{
+   color: #fff;
+   margin: 20px 10px;
+ }
+ .copyright{
+   margin-top:20px;
+   color: #98B4AA;
+ }

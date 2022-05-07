@@ -1,0 +1,143 @@
+body{
+  background-color: #151515;
+}
+
+hr{
+  color: #fff;
+  border: 3px solid ;
+}
+
+/* ----------- Title ---------------- */
+#title {
+  background-color: #05595B;
+  padding-bottom: 5px;
+}
+
+
+/* ---------------navbar---------------- */
+.top-nav{
+  margin-right: 2em;
+}
+
+.navbar-brand{
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size:40px;
+  padding-left: 20px;
+}
+
+.brand-c{
+  font-family: 'Rubik Wet Paint', cursive;
+color: #F7FD04;
+}
+.navbar-options{
+  padding-right: 6em;
+}
+.font-icon{
+  color: #EC255A;
+}
+
+/* -----------------search - class---------- */
+
+
+.search{
+  width: 19em;
+  margin-top: 10px;
+  margin-left: 19em;
+}
+.search-btn{
+  margin-top: 10px;
+}
+/* .......................main-block.............................. */
+
+
+.content-main-box{
+  margin: auto;
+  text-align: center;
+}
+
+.latestPost {
+width: 210px !important;
+float: left;
+margin-bottom: 20px;
+margin-left: 1%;
+margin-right: 1%;
+background: #000;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+position: relative;
+border-radius: 5px;
+display: block;
+padding: 5px;
+
+}
+
+.latestPost header {
+padding: 4px;
+box-sizing: border-box;
+}
+.latestPost .title, .latestPost .title a {
+font-weight: 500;
+font-size: 15px;
+color: #F0FFF0;
+line-height: 22px;
+}
+.latestPost .title, .latestPost .title a:hover {
+color: grey;
+
+}
+
+.latestPost .title {
+padding-top: 1px;
+text-align: center;
+height: 140px;
+}
+.title {
+clear: both;
+}
+
+
+.featured-thumbnail {
+float: left;
+max-width: 100%;
+display: block;
+position: relative;
+width: 100%;
+}
+.featured-thumbnail {
+opacity: 82%;
+}
+.featured-thumbnail:hover {
+opacity: 100%;
+}
+article{
+  margin: 30px 20px 0 10px;
+}
+
+
+
+
+
+/* ........................Footer............................ */
+
+#footer{
+
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 50px;
+  background: #05595B;
+}
+.s-link{
+  color: #fff;
+  margin: 20px 10px;
+}
+.copyright{
+  margin-top:1px;
+  color: #98B4AA;
+  font-size:10px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}

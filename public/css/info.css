@@ -1,0 +1,158 @@
+body{
+  background-color: black;
+}
+
+hr{
+  color: #fff;
+}
+
+/* ----------- Title ---------------- */
+#title {
+  background-color: #05595B;
+  padding-bottom: 5px;
+}
+
+
+/* ---------------navbar---------------- */
+.top-nav{
+  margin-right: 2em;
+}
+
+.navbar-brand{
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size:40px;
+  padding-left: 20px;
+}
+
+.brand-c{
+  font-family: 'Rubik Wet Paint', cursive;
+color: #F7FD04;
+}
+.navbar-options{
+  padding-right: 6em;
+}
+.font-icon{
+  color: #EC255A;
+}
+
+
+/* .......................main-block.............................. */
+.container-sm{
+  margin-top:60px;
+  color:black;
+}
+.dwn-png{
+width:60px;
+height:60px;
+}
+.dwn-png2{
+  width:90px;
+  height:150px;
+  opacity:0.9;
+}
+.poster{
+  text-align: center;
+
+}
+
+.poster-img{
+  margin-top: 10px;
+  width:250px;
+  height:400px;
+}
+.poster-container{
+  border: 0.3px solid ;
+  color: #fff;
+  width:600px;
+  margin:auto
+
+}
+.movie-data{
+  width:500px;
+  margin:auto
+}
+.imdb{
+  display: inline-block;
+}
+.movie-cast{
+  text-align: left;
+}
+
+h6{
+  color: #4ECCA3;
+  opacity: 0.7;
+}
+h1{
+  opacity: 0.7;
+  color: #A7D129;
+}
+p{
+  color: #77ABB7;
+  opacity:0.7;
+}
+h3{
+  color:#F6C90E;
+  opacity:0.9;
+}
+.tnx{
+
+  color: #14FFEC;
+  width:500px;
+  margin:auto;
+  text-align: left;
+  font-family: 'Kaushan Script', cursive;
+}
+.movie-info{
+  width:500px;
+  margin:auto;
+  text-align: left;
+}
+.storyline{
+  width:500px;
+  margin:auto;
+  text-align: left;
+}
+.ss{
+  margin:10px;
+  width:100%;
+  height:25em;
+
+}
+.contact-pra{
+  color:#F66B0E;
+}
+h3:hover, h6:hover, h1:hover, p:hover{
+  opacity:1;
+}
+
+
+
+
+
+
+
+/* ........................Footer............................ */
+
+#footer{
+text-align: center;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 50px;
+  background: #05595B;
+}
+.s-link{
+  color: #fff;
+  margin: 20px 10px;
+}
+.copyright{
+  margin-top:1px;
+  color: #98B4AA;
+  font-size:10px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}

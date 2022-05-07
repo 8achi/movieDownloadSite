@@ -1,0 +1,174 @@
+body{
+  background-color: #062C30;
+}
+
+hr{
+  color: #fff;
+  border: 1px solid ;
+}
+
+/* ----------- Title ---------------- */
+#title {
+  background-color: #05595B;
+  padding-bottom: 5px;
+}
+
+
+/* ---------------navbar---------------- */
+.top-nav{
+  margin-right: 30px;
+}
+
+.navbar-brand{
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size:40px;
+  padding-left: 20px;
+}
+
+.brand-c{
+  font-family: 'Rubik Wet Paint', cursive;
+color: #F7FD04;
+}
+.navbar-options{
+  padding-right: 100px;
+}
+.font-icon{
+  color: #EC255A;
+}
+
+/* -----------------search - class---------- */
+.search-div{
+  text-align: center;
+}
+.search{
+  margin-top:20px;
+  margin-bottom:20px;
+  display: inline-block;
+  width: 16em;
+}
+.search-btn{
+  border-radius: 50%;
+}
+
+/* ---------------------------  movie-options ------------------------------------- */
+.welcome{
+  font-family: 'Kaushan Script', cursive;
+  color:#4E944F;
+  margin-top: 20px;
+}
+.movie-option{
+
+}
+.button-movies{
+  font-size: 2.5 rem;
+margin:20px 10px 0 10px;
+}
+.button-movies-link{
+  text-decoration: none;
+  color: #DFDFDE;
+}
+
+/* ------------------todays-best-movie---------- */
+
+.best-collection{
+  margin-top:5px;
+  margin-bottom:30px;
+}
+.todays-best-image{
+height: 350px;
+}
+
+.top-movie-title{
+  font-family: 'Caveat', cursive;
+  padding-top:20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #FFD124;
+}
+
+/* -----------------Teligram-------------------- */
+.teligram{
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+.teligram-title{
+  padding-top: 30px;
+  margin-bottom: 20px;
+  color: #E2D784;
+}
+.btn-teligram{
+  margin-left:  30px;
+  height:35px;
+  width:100px;
+  font-size: 20px;
+
+}
+.teligram-img{
+width: 100px;
+height: 100px;
+}
+
+
+/* ........................report....................... */
+.h-p-data{
+  text-align:center;
+  width: 500px;
+  margin:auto;
+}
+.report{
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.report-title{
+  /* margin-left: 500px; */
+  color: #E2D784;
+
+}
+.report-description{
+  /* margin-left: 500px; */
+  color: #DFDFDE;
+  width:500px;
+  margin-bottom: 50px
+  text-align: left;
+}
+
+
+ /* ..............................Request......................... */
+
+ .request{
+   text-align: right;
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+
+ .request-title{
+   color: #E2D784;
+
+ }
+ .request-description{
+
+   color: #DFDFDE;
+   width:500px;
+   text-align: right;
+
+ }
+
+ /* ........................Footer............................ */
+
+ #footer{
+   background-color: #05595B;
+   padding-top:50px;
+   padding-bottom:50px;
+   text-align: center;
+ }
+ .s-link{
+   color: #fff;
+   margin: 20px 10px;
+ }
+ .copyright{
+   margin-top:20px;
+   color: #98B4AA;
+ }

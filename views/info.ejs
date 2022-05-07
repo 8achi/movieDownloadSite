@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>UploadPage</title>
+
+
+  <script src="https://kit.fontawesome.com/3de369e63a.js" crossorigin="anonymous"></script>
+
+  <!-- -    -   -     google-font      -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+
+  <!--     Bootstrap    -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+  <!--      -CSS     -->
+  <link rel="stylesheet" href="/css/info.css">
+
+
+</head>
+
+<body>
+  <section id="title">
+
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href=""><i class="font-icon fa-regular fa-heart fa-1x"></i><span class="brand-se">se</span> <samp class="brand-c">C</samp>inema</a>
+
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#head-collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class=" collapse navbar-collapse  top-nav" id="head-collapse">
+          <ul class=" navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleControls">Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Request</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- /////////////////////////////////////////////////Main Box/////////////////////////////////// -->
+
+
+
+
+
+
+  <div class="container container-sm">
+
+    <!-- ///////////Title ////////////////////////////////// -->
+    <h1> <%=movie.title%> </h1>
+    <br>
+    <p>Dil_se_cinema is one of The Best Website/Platform For Bollywood And Hollywood HD Movies.Because This is totally ADD FREE and We Provide Direct Google Drive Download Links For Fast And Secure Downloading. Just Click On Download Button And
+      Follow Steps To Download And Watch Movies Online For Free.</p>
+      <div style="text-align:center" >
+        <img class="dwn-png" src="https://media0.giphy.com/media/Iha8mghCOKWYONp31N/giphy.gif?cid=ecf05e47btn8ifimwwzujwjuwhjwktjrqw2h4o5eap3q0pp0&rid=giphy.gif&ct=s" alt="">
+      </div>
+    <div class="container">
+
+      <div class="poster">
+        <div class="poster-container">
+
+
+        <div class="poster-img-cls">
+          <img class="poster-img" src="<%= movie.posterImage %>" alt="">
+        </div>
+
+        <div class="movie-data">
+          <br>
+          <h2><b><%= movie.movieName %></b></h2>
+          <hr>
+          <h7 class="imdb">IMDb RATING:</h7>
+          <h5 class="imdb">⭐</h5>
+          <h7 class="imdb"><b><%= movie.imdbRating %></b>/10</h7>
+          <p ><%= movie.storyLine %></p>
+          <hr>
+          <div class="movie-cast">
+            <h7><b>Director :</b><%= movie.director %></h7><br>
+            <h7><b>Writers :</b><%= movie.writer %></h7><br>
+            <h7><b>Stars :</b><%= movie.stars %></h7>
+            <br>
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+<br>
+<br>
+<div class="tnx">
+  <h1 class="tnx">Thanks for visiting our site</h1>
+</div>
+<br>
+<div class="movie-info">
+  <h3 >Movie Info: </h3>
+  <h6><b>Full Name:</b><%= movie.movieName %></h6>
+  <h6><b>Language:</b><%= movie.language %></h6>
+  <h6><b>Size:</b><%= movie.size %></h6>
+  <h6><b>Format:</b><%= movie.format %></h6>
+</div>
+<br>
+
+<div class="storyline">
+  <h3>storyLine:</h3>
+<p><%= movie.storyLine %></p>
+
+</div>
+<br>
+
+<div class="ScreenShot:">
+  <h3 >ScreenShot</h3>
+  <img src="<%= movie.screenshotLink1 %>" alt="" class="ss">
+  <img src="<%= movie.screenshotLink2 %>" alt="" class="ss">
+  <img src="<%= movie.screenshotLink3 %>" alt="" class="ss">
+
+
+
+</div>
+
+    </div>
+    <br>
+  </div>
+
+<div style="text-align:center" class="">
+  <img class="dwn-png2"src="https://media4.giphy.com/media/cOKQeYbUABoV2zVyKd/giphy.gif?cid=ecf05e47j802hgqo0fb8vxr3vfpae59r9p4iyst7ydi30348&rid=giphy.gif&ct=s" alt="">
+
+</div>
+
+
+<div style="text-align:center;" class="dwn-btn">
+
+  <button id="btn420p"  class="btn btn-success" type="button" name="button"><a id="420p" href="<%= movie.downloadLink420p %>">Download[420p]</a></button><br><br>
+<button id="btn720p" class="btn btn-primary"type="button" name="button"><a id="720p" href="<%= movie.downloadLink720p %>">Download[720p]</a></button><br><br>
+<button id="btn1080p" class="btn btn-warning"type="button" name="button"><a id="1080p" href="<%= movie.downloadLink1080p %>">Download[1080p]</a></button>
+<br>
+<br>
+<br>
+<br>
+<p class="contact-pra">For Any Movie Contact Me(the links are shown below in the footer section)</p>
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  var p420 = $("#420p").attr("href");
+  var p720 = $("#720p").attr("href");
+  var p1080 = $("#1080p").attr("href");
+
+
+  if (p420.length == 0) {
+    $("#btn420p").hide();
+  }
+  if (p720.length == 0) {
+    $("#btn720p").hide();
+  }
+  if (p1080.length == 0) {
+    $("#btn1080p").hide();
+
+  }
+});
+</script>
+
+
+
+
+
+
+
+  <!-- ////////////////////////////////////////////////footer////////////////////////////////////// -->
+  <div id="footer">
+    <div class="">
+      <a class="s-link" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter"></i></a>
+      <a class="s-link" href="https://www.facebook.com/people/Sid-Patra/100077311705013/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="s-link" href="https://www.instagram.com/sid_patraa/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+      <a class="s-link" href="https://in.linkedin.com/in/sid-patra-216576211?trk=public_profile_samename-profile"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="s-link" href="mailto:sidpatra33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <p class="copyright">© Copyright Sid Patra @2022</p>
+
+  </div>
+</body>
+<html>
